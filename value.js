@@ -16,7 +16,6 @@ console.log(madrasah);
 madrasah['teacher']= 'rohim gazi'
 console.log(madrasah);
 
-
 let prop = 'multimedia';
 madrasah[prop] = false;
 console.log(madrasah);
