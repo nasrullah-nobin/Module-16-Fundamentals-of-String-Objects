@@ -7,14 +7,14 @@
 // };
 // console.log(colors["golden rod"]);
 
-// // task 02
-// const car = {
-//   make: "Toyota",
-//   model: "Corolla",
-//   year: 2020,
-//   "passenger capacity": 5,
-// };
-
+// task 02
+const car = {
+  make: "Toyota",
+  model: "Corolla",
+  year: 2020,
+};
+car["passenger capacity"] = 5;
+console.log(car);
 // // task 03
 // const student = {
 //   name: "Hamim Sakep",
@@ -52,19 +52,19 @@
 
 // task 05
 
-let myObject = {
-  name: "John Doe",
-  age: 25,
-  city: "Example City",
-  isStudent: true,
-};
-// Method 01
-for (const keys in myObject) {
-  console.log("keys:", keys, "type:", typeof myObject[keys]);
-}
-// Method 02
-const key = Object.keys(myObject);
-const value = Object.values(myObject)
-for(let i = 0; i < key.length; i++){
-    console.log("keys:",key[i],"type:",typeof value[i]);
-}
+// let myObject = {
+//   name: "John Doe",
+//   age: 25,
+//   city: "Example City",
+//   isStudent: true,
+// };
+// // Method 01
+// for (const keys in myObject) {
+//   console.log("keys:", keys, "type:", typeof myObject[keys]);
+// }
+// // Method 02
+// const key = Object.keys(myObject);
+// const value = Object.values(myObject);
+// for (let i = 0; i < key.length; i++) {
+//   console.log("keys:", key[i], "type:", typeof value[i]);
+// }
